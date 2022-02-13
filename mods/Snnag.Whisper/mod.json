@@ -1,0 +1,15 @@
+{
+    "Name": "Snnag.Whisper",
+    "Description": "/whisper",
+    "Version": "1.0.0",
+    "LoadPriority": 1,
+    "Scripts": [
+        {
+            "Path": "chathook.nut",
+            "RunOn": "SERVER",
+            "ServerCallback": {
+                "After": "Whisper_AddCallback"
+            }
+        }
+    ]
+}
